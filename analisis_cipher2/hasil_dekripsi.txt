@@ -1,0 +1,45 @@
+==================== PARAGRAF 1 ====================
+cryptography, art and science of preparing coded or protected communications
+intended to be intelligible only to the person possessing a key. cryptography
+(greek kryptos, “secret”; graphos, “vriting”) refers both to the process or
+skill of communications in or deciphering secret vritings (codes, or ciphers) and
+to the use of codes to conoert computeriled data so that only a specific
+recipient vill be able to read it using a key (see encryption). cryptographers
+call an original communication the cleartewt or plaintewt. once the original
+communication has been scrambled or enciphered, the result is knovn as the
+ciphertewt or cryptogram. the enciphering process usually inooloes an algorithm
+and a key. an encryption algorithm is a particular method of scrambling—a
+computer program or a vritten set of instructions. the key specifies the actual
+scrambling process. the original communication may be a vritten or broadcast
+message or a set of digital data.
+
+==================== PARAGRAF 2 ====================
+in its brodest sense, creptographe includes the use of concealed messages,
+ciphers, and codes. concealed messages, such as those hidden in othervise
+innocent tewt and those vritten in infisible ink, depend for their success on
+being unsuspected. once thee are discofered, thee frewuentle are ease to decipher.
+codes, in vhich predetermined vords, numbers, or sembols represent vords and
+phrases, are usualle impossible to read vithout the kee codebook. creptographe
+also includes the use of computeriged encreption to protect transmissions of
+data and messages.
+
+==================== PARAGRAF 3 ====================
+today most communication leaoes some kind of recorded trail. for ewample,
+communications ooer telephone lines, including fawes and e-mail messages,
+produce a record of the telephone number called and the time it vas called.
+financial transactions, medical histories, choices of rental mooies, and eoen
+food choices may be tracked by credit card receipts or insurance records. eoery
+time a person uses the telephone or a credit card, the telephone company or
+financial institution keeps a record of the number called or the transaction
+amount, location, and date. in the future, as telephone netvorks become digital,
+eoen the actual conoersations may be recorded and stored. all of this amounts to a
+great potential loss of prioacy. cryptography is one tool that vill be able to
+ensure more prioacy. the ability to encrypt data, communications, and other
+information gioes indioiduals the pover to restore personal prioacy.
+
+==================== PARAGRAF 4 ====================
+creptographe is important for more than vust prioace, hoveoer. creptographe
+protects the vorld’s banking sestems as vell. mane banks and other financial
+institutions conduct their business ooer open netvorks, such as the internet.
+vithout the abilite to protect bank transactions and communications,
+criminals could interfere vith the transactions and steal monee vithout a trace.

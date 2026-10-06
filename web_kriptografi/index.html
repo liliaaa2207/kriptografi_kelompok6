@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptography Web Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app">
+
+        <header class="header">
+            <div>
+                <p class="eyebrow">INFORMATIKA • KRIPTOGRAFI</p>
+                <h1>Cryptography Web Tool</h1>
+                <p class="subtitle">
+                    Implementasi Kriptosistem Sederhana Berbasis Web
+                </p>
+            </div>
+
+            <div class="badge">7 CIPHERS</div>
+        </header>
+
+        <main class="container">
+
+            <!-- PILIH CIPHER -->
+            <section class="card">
+                <div class="section-title">
+                    <span>01</span>
+                    <div>
+                        <h2>Pilih Kriptosistem</h2>
+                        <p>Tentukan algoritma yang ingin digunakan.</p>
+                    </div>
+                </div>
+
+                <select id="cipherSelect">
+                    <option value="shift">1. Shift Cipher</option>
+                    <option value="substitution">2. Substitution Cipher</option>
+                    <option value="affine">3. Affine Cipher</option>
+                    <option value="vigenere">4. Vigenere Cipher</option>
+                    <option value="hill">5. Hill Cipher</option>
+                    <option value="permutation">6. Permutation Cipher</option>
+                    <option value="otp">7. One-Time Pad</option>
+                </select>
+            </section>
+
+            <!-- KEY -->
+            <section class="card">
+                <div class="section-title">
+                    <span>02</span>
+                    <div>
+                        <h2>Parameter / Kunci</h2>
+                        <p>Masukkan parameter sesuai algoritma.</p>
+                    </div>
+                </div>
+
+                <!-- SHIFT -->
+                <div class="key-panel active" id="shiftPanel">
+                    <label for="shiftKey">Nilai Shift</label>
+                    <input type="number" id="shiftKey" min="0" max="25" value="3">
+                    <small>Gunakan nilai 0 sampai 25.</small>
+                </div>
+
+                <!-- SUBSTITUTION -->
+                <div class="key-panel" id="substitutionPanel">
+                    <label for="substitutionKey">Kunci Substitusi</label>
+                    <input
+                        type="text"
+                        id="substitutionKey"
+                        maxlength="26"
+                        value="qwertyuiopasdfghjklzxcvbnm"
+                    >
+                    <small>
+                        Harus terdiri dari 26 huruf unik a-z.
+                    </small>
+                </div>
+
+                <!-- AFFINE -->
+                <div class="key-panel" id="affinePanel">
+                    <div class="two-column">
+                        <div>
+                            <label for="affineA">Nilai a</label>
+                            <input type="number" id="affineA" value="5">
+                        </div>
+
+                        <div>
+                            <label for="affineB">Nilai b</label>
+                            <input type="number" id="affineB" value="8">
+                        </div>
+                    </div>
+
+                    <small>
+                        Nilai a harus relatif prima dengan 26.
+                    </small>
+                </div>
+
+                <!-- VIGENERE -->
+                <div class="key-panel" id="vigenerePanel">
+                    <label for="vigenereKey">Kunci Vigenere</label>
+                    <input
+                        type="text"
+                        id="vigenereKey"
+                        value="KUNCI"
+                    >
+                    <small>
+                        Hanya huruf alfabet yang digunakan.
+                    </small>
+                </div>
+
+                <!-- HILL -->
+                <div class="key-panel" id="hillPanel">
+                    <label>Matriks Kunci 2 × 2</label>
+
+                    <div class="matrix">
+                        <input type="number" id="hill00" value="3">
+                        <input type="number" id="hill01" value="3">
+                        <input type="number" id="hill10" value="2">
+                        <input type="number" id="hill11" value="5">
+                    </div>
+
+                    <small>
+                        Matriks harus mempunyai invers modulo 26.
+                    </small>
+                </div>
+
+                <!-- PERMUTATION -->
+                <div class="key-panel" id="permutationPanel">
+                    <label for="permutationKey">Kunci Permutasi</label>
+                    <input
+                        type="text"
+                        id="permutationKey"
+                        value="3,1,4,2"
+                    >
+                    <small>
+                        Contoh: 3,1,4,2 berarti blok berukuran 4 karakter.
+                    </small>
+                </div>
+
+                <!-- OTP -->
+                <div class="key-panel" id="otpPanel">
+                    <label for="otpFile">File Kunci OTP</label>
+
+                    <input
+                        type="file"
+                        id="otpFile"
+                        accept=".txt"
+                    >
+
+                    <small>
+                        File harus berisi huruf acak. Jumlah kunci minimal
+                        harus sama dengan jumlah huruf pesan.
+                    </small>
+                </div>
+            </section>
+
+            <!-- INPUT -->
+            <section class="card">
+                <div class="section-title">
+                    <span>03</span>
+                    <div>
+                        <h2>Plaintext / Ciphertext</h2>
+                        <p>Ketik pesan atau masukkan file.</p>
+                    </div>
+                </div>
+
+                <div class="file-row">
+                    <label class="file-button">
+                        Pilih File
+                        <input type="file" id="messageFile">
+                    </label>
+
+                    <span id="fileName">Belum ada file dipilih</span>
+                </div>
+
+                <textarea
+                    id="inputText"
+                    placeholder="Masukkan plaintext atau ciphertext di sini..."
+                ></textarea>
+            </section>
+
+            <!-- BUTTON -->
+            <section class="actions">
+                <button id="encryptBtn" class="primary">
+                    🔐 Enkripsi
+                </button>
+
+                <button id="decryptBtn">
+                    🔓 Dekripsi
+                </button>
+
+                <button id="clearBtn" class="danger">
+                    Hapus
+                </button>
+            </section>
+
+            <!-- RESULT -->
+            <section class="card result-card">
+                <div class="section-title">
+                    <span>04</span>
+                    <div>
+                        <h2>Hasil</h2>
+                        <p>Ciphertext atau plaintext hasil proses.</p>
+                    </div>
+                </div>
+
+                <textarea
+                    id="resultText"
+                    readonly
+                    placeholder="Hasil akan muncul di sini..."
+                ></textarea>
+
+                <div class="result-actions">
+                    <button id="copyBtn">
+                        Salin Hasil
+                    </button>
+
+                    <button id="saveBtn">
+                        Simpan Hasil
+                    </button>
+                </div>
+            </section>
+
+            <!-- STATUS -->
+            <div id="status" class="status"></div>
+
+        </main>
+
+        <footer>
+            <p>Cryptography Web Tool • Informatika • 2026</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

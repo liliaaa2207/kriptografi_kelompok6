@@ -1,0 +1,472 @@
+=======================================================
+ANALISIS KRIPTOGRAFI CIPHER2
+=======================================================
+
+File berhasil dibaca: Cipher2.txt
+Jumlah paragraf terdeteksi: 4
+
+=======================================================
+1. ANALISIS FREKUENSI KESELURUHAN
+=======================================================
+Jumlah huruf: 2329
+
+Frekuensi huruf:
+g :  277 ( 11.89%)
+u :  207 (  8.89%)
+k :  196 (  8.42%)
+x :  173 (  7.43%)
+a :  171 (  7.34%)
+d :  171 (  7.34%)
+z :  170 (  7.30%)
+m :  164 (  7.04%)
+w :  131 (  5.62%)
+i :   86 (  3.69%)
+q :   83 (  3.56%)
+s :   81 (  3.48%)
+n :   76 (  3.26%)
+b :   64 (  2.75%)
+j :   55 (  2.36%)
+e :   51 (  2.19%)
+t :   39 (  1.67%)
+y :   32 (  1.37%)
+c :   30 (  1.29%)
+r :   23 (  0.99%)
+o :   20 (  0.86%)
+p :   19 (  0.82%)
+v :    6 (  0.26%)
+l :    2 (  0.09%)
+h :    1 (  0.04%)
+f :    1 (  0.04%)
+
+=======================================================
+2. ANALISIS KATA KESELURUHAN
+=======================================================
+
+15 kata yang paling sering muncul:
+usg                  : 28
+xdi                  : 16
+kc                   : 15
+ka                   : 15
+x                    : 15
+uk                   : 14
+waenuktaxnse         : 7
+yg                   : 6
+zd                   : 6
+wkbbjdzwxuzkdm       : 5
+pge                  : 5
+xm                   : 5
+ugqgnskdg            : 5
+wkigm                : 4
+ixux                 : 4
+
+=======================================================
+3. ANALISIS POLA KATA
+=======================================================
+
+20 kata berdasarkan frekuensi kemunculan:
+Kata: usg             Pola: 012             Jumlah: 28
+Kata: xdi             Pola: 012             Jumlah: 16
+Kata: kc              Pola: 01              Jumlah: 15
+Kata: ka              Pola: 01              Jumlah: 15
+Kata: x               Pola: 0               Jumlah: 15
+Kata: uk              Pola: 01              Jumlah: 14
+Kata: waenuktaxnse    Pola: 012345617382    Jumlah: 7
+Kata: yg              Pola: 01              Jumlah: 6
+Kata: zd              Pola: 01              Jumlah: 6
+Kata: wkbbjdzwxuzkdm  Pola: 01223450675148  Jumlah: 5
+Kata: pge             Pola: 012             Jumlah: 5
+Kata: xm              Pola: 01              Jumlah: 5
+Kata: ugqgnskdg       Pola: 012134561       Jumlah: 5
+Kata: wkigm           Pola: 01234           Jumlah: 4
+Kata: ixux            Pola: 0121            Jumlah: 4
+Kata: wkbbjdzwxuzkd   Pola: 0122345067514   Jumlah: 4
+Kata: zm              Pola: 01              Jumlah: 4
+Kata: bgmmxtgm        Pola: 01223412        Jumlah: 4
+Kata: nazoxwe         Pola: 0123456         Jumlah: 4
+Kata: nakwgmm         Pola: 0123455         Jumlah: 3
+
+=======================================================
+4. ANALISIS BIGRAM
+=======================================================
+
+15 n-gram paling sering muncul (ukuran 2):
+us         : 49
+zd         : 47
+ka         : 43
+kd         : 43
+sg         : 43
+ag         : 38
+gm         : 37
+ga         : 36
+uk         : 35
+xd         : 35
+wk         : 32
+uz         : 31
+ug         : 30
+xq         : 29
+gd         : 28
+
+=======================================================
+5. ANALISIS TRIGRAM
+=======================================================
+
+15 n-gram paling sering muncul (ukuran 3):
+usg        : 35
+zkd        : 23
+uzk        : 22
+xdi        : 16
+aen        : 14
+enu        : 14
+wkb        : 14
+wae        : 13
+gmm        : 13
+zdt        : 12
+xuz        : 12
+kdm        : 12
+sga        : 12
+tax        : 11
+mus        : 11
+
+=======================================================
+ANALISIS PARAGRAF 1
+=======================================================
+Jumlah huruf: 789
+Jumlah karakter: 961
+
+Frekuensi huruf:
+Jumlah huruf: 789
+
+Frekuensi huruf:
+g :   86 ( 10.90%)
+u :   70 (  8.87%)
+k :   68 (  8.62%)
+a :   66 (  8.37%)
+z :   63 (  7.98%)
+x :   58 (  7.35%)
+d :   54 (  6.84%)
+w :   49 (  6.21%)
+m :   49 (  6.21%)
+n :   32 (  4.06%)
+q :   29 (  3.68%)
+s :   26 (  3.30%)
+t :   24 (  3.04%)
+b :   22 (  2.79%)
+i :   20 (  2.53%)
+e :   17 (  2.15%)
+j :   15 (  1.90%)
+y :   11 (  1.39%)
+c :    9 (  1.14%)
+p :    8 (  1.01%)
+r :    6 (  0.76%)
+o :    3 (  0.38%)
+v :    3 (  0.38%)
+l :    1 (  0.13%)
+
+Analisis kata:
+
+10 kata yang paling sering muncul:
+usg                  : 11
+ka                   : 10
+x                    : 9
+kc                   : 6
+uk                   : 6
+pge                  : 4
+xdi                  : 3
+yg                   : 3
+nakwgmm              : 3
+xd                   : 3
+
+Analisis pola kata:
+
+15 kata berdasarkan frekuensi kemunculan:
+Kata: usg             Pola: 012             Jumlah: 11
+Kata: ka              Pola: 01              Jumlah: 10
+Kata: x               Pola: 0               Jumlah: 9
+Kata: kc              Pola: 01              Jumlah: 6
+Kata: uk              Pola: 01              Jumlah: 6
+Kata: pge             Pola: 012             Jumlah: 4
+Kata: xdi             Pola: 012             Jumlah: 3
+Kata: yg              Pola: 01              Jumlah: 3
+Kata: nakwgmm         Pola: 0123455         Jumlah: 3
+Kata: xd              Pola: 01              Jumlah: 3
+Kata: kaztzdxq        Pola: 01232456        Jumlah: 3
+Kata: wkbbjdzwxuzkd   Pola: 0122345067514   Jumlah: 3
+Kata: waenuktaxnse    Pola: 012345617382    Jumlah: 2
+Kata: wkbbjdzwxuzkdm  Pola: 01223450675148  Jumlah: 2
+Kata: kdqe            Pola: 0123            Jumlah: 2
+
+Analisis bigram:
+
+10 n-gram paling sering muncul (ukuran 2):
+zd         : 18
+uk         : 17
+sg         : 17
+ka         : 16
+us         : 16
+az         : 13
+kd         : 13
+wa         : 12
+uz         : 12
+ga         : 12
+
+=======================================================
+ANALISIS PARAGRAF 2
+=======================================================
+Jumlah huruf: 464
+Jumlah karakter: 561
+
+Frekuensi huruf:
+Jumlah huruf: 464
+
+Frekuensi huruf:
+g :   69 ( 14.87%)
+m :   49 ( 10.56%)
+k :   35 (  7.54%)
+d :   33 (  7.11%)
+u :   33 (  7.11%)
+a :   30 (  6.47%)
+z :   29 (  6.25%)
+i :   27 (  5.82%)
+w :   24 (  5.17%)
+x :   23 (  4.96%)
+s :   19 (  4.09%)
+n :   15 (  3.23%)
+j :   14 (  3.02%)
+e :   12 (  2.59%)
+q :   11 (  2.37%)
+b :    9 (  1.94%)
+y :    7 (  1.51%)
+t :    6 (  1.29%)
+r :    6 (  1.29%)
+c :    5 (  1.08%)
+p :    3 (  0.65%)
+o :    2 (  0.43%)
+v :    1 (  0.22%)
+h :    1 (  0.22%)
+l :    1 (  0.22%)
+
+Analisis kata:
+
+10 kata yang paling sering muncul:
+zd                   : 4
+xdi                  : 4
+usg                  : 3
+kc                   : 3
+bgmmxtgm             : 3
+xag                  : 3
+uk                   : 3
+waenuktaxnse         : 2
+zdwqjigm             : 2
+jmg                  : 2
+
+Analisis pola kata:
+
+15 kata berdasarkan frekuensi kemunculan:
+Kata: zd              Pola: 01              Jumlah: 4
+Kata: xdi             Pola: 012             Jumlah: 4
+Kata: usg             Pola: 012             Jumlah: 3
+Kata: kc              Pola: 01              Jumlah: 3
+Kata: bgmmxtgm        Pola: 01223412        Jumlah: 3
+Kata: xag             Pola: 012             Jumlah: 3
+Kata: uk              Pola: 01              Jumlah: 3
+Kata: waenuktaxnse    Pola: 012345617382    Jumlah: 2
+Kata: zdwqjigm        Pola: 01234567        Jumlah: 2
+Kata: jmg             Pola: 012             Jumlah: 2
+Kata: wkdwgxqgi       Pola: 012034536       Jumlah: 2
+Kata: wkigm           Pola: 01234           Jumlah: 2
+Kata: uskmg           Pola: 01234           Jumlah: 2
+Kata: usge            Pola: 0123            Jumlah: 2
+Kata: rkaim           Pola: 01234           Jumlah: 2
+
+Analisis bigram:
+
+10 n-gram paling sering muncul (ukuran 2):
+gm         : 14
+zd         : 11
+ig         : 11
+us         : 10
+mg         : 9
+sg         : 9
+ag         : 9
+gd         : 8
+gi         : 8
+wk         : 7
+
+=======================================================
+ANALISIS PARAGRAF 3
+=======================================================
+Jumlah huruf: 757
+Jumlah karakter: 922
+
+Frekuensi huruf:
+Jumlah huruf: 757
+
+Frekuensi huruf:
+g :   97 ( 12.81%)
+k :   69 (  9.11%)
+x :   66 (  8.72%)
+u :   65 (  8.59%)
+d :   55 (  7.27%)
+z :   54 (  7.13%)
+a :   52 (  6.87%)
+m :   42 (  5.55%)
+w :   42 (  5.55%)
+q :   35 (  4.62%)
+i :   33 (  4.36%)
+b :   25 (  3.30%)
+s :   22 (  2.91%)
+n :   20 (  2.64%)
+j :   17 (  2.25%)
+e :   13 (  1.72%)
+c :   13 (  1.72%)
+o :   12 (  1.59%)
+y :    9 (  1.19%)
+t :    6 (  0.79%)
+p :    4 (  0.53%)
+r :    4 (  0.53%)
+v :    2 (  0.26%)
+
+Analisis kata:
+
+10 kata yang paling sering muncul:
+usg                  : 10
+kc                   : 6
+xdi                  : 6
+ugqgnskdg            : 5
+x                    : 5
+ka                   : 4
+uk                   : 4
+wxqqgi               : 3
+yg                   : 3
+nazoxwe              : 3
+
+Analisis pola kata:
+
+15 kata berdasarkan frekuensi kemunculan:
+Kata: usg             Pola: 012             Jumlah: 10
+Kata: kc              Pola: 01              Jumlah: 6
+Kata: xdi             Pola: 012             Jumlah: 6
+Kata: ugqgnskdg       Pola: 012134561       Jumlah: 5
+Kata: x               Pola: 0               Jumlah: 5
+Kata: ka              Pola: 01              Jumlah: 4
+Kata: uk              Pola: 01              Jumlah: 4
+Kata: wxqqgi          Pola: 012234          Jumlah: 3
+Kata: yg              Pola: 01              Jumlah: 3
+Kata: nazoxwe         Pola: 0123456         Jumlah: 3
+Kata: agwkaigi        Pola: 01230414        Jumlah: 2
+Kata: wkbbjdzwxuzkdm  Pola: 01223450675148  Jumlah: 2
+Kata: agwkai          Pola: 012304          Jumlah: 2
+Kata: djbyga          Pola: 012345          Jumlah: 2
+Kata: uzbg            Pola: 0123            Jumlah: 2
+
+Analisis bigram:
+
+10 n-gram paling sering muncul (ukuran 2):
+kd         : 18
+ag         : 17
+ka         : 17
+uz         : 13
+us         : 13
+xq         : 13
+qg         : 12
+gm         : 12
+xd         : 12
+wk         : 11
+
+=======================================================
+ANALISIS PARAGRAF 4
+=======================================================
+Jumlah huruf: 319
+Jumlah karakter: 380
+
+Frekuensi huruf:
+Jumlah huruf: 319
+
+Frekuensi huruf:
+u :   39 ( 12.23%)
+d :   29 (  9.09%)
+x :   26 (  8.15%)
+g :   25 (  7.84%)
+k :   24 (  7.52%)
+z :   24 (  7.52%)
+m :   24 (  7.52%)
+a :   23 (  7.21%)
+w :   16 (  5.02%)
+s :   14 (  4.39%)
+e :    9 (  2.82%)
+n :    9 (  2.82%)
+j :    9 (  2.82%)
+b :    8 (  2.51%)
+q :    8 (  2.51%)
+r :    7 (  2.19%)
+i :    6 (  1.88%)
+y :    5 (  1.57%)
+p :    4 (  1.25%)
+t :    3 (  0.94%)
+c :    3 (  0.94%)
+o :    3 (  0.94%)
+f :    1 (  0.31%)
+
+Analisis kata:
+
+10 kata yang paling sering muncul:
+usg                  : 4
+xdi                  : 3
+waenuktaxnse         : 2
+xm                   : 2
+rzuskju              : 2
+uaxdmxwuzkdm         : 2
+zm                   : 1
+zbnkauxdu            : 1
+cka                  : 1
+bkag                 : 1
+
+Analisis pola kata:
+
+15 kata berdasarkan frekuensi kemunculan:
+Kata: usg             Pola: 012             Jumlah: 4
+Kata: xdi             Pola: 012             Jumlah: 3
+Kata: waenuktaxnse    Pola: 012345617382    Jumlah: 2
+Kata: xm              Pola: 01              Jumlah: 2
+Kata: rzuskju         Pola: 0123452         Jumlah: 2
+Kata: uaxdmxwuzkdm    Pola: 012342506734    Jumlah: 2
+Kata: zm              Pola: 01              Jumlah: 1
+Kata: zbnkauxdu       Pola: 012345675       Jumlah: 1
+Kata: cka             Pola: 012             Jumlah: 1
+Kata: bkag            Pola: 0123            Jumlah: 1
+Kata: usxd            Pola: 0123            Jumlah: 1
+Kata: fjmu            Pola: 0123            Jumlah: 1
+Kata: nazoxwe         Pola: 0123456         Jumlah: 1
+Kata: skrgoga         Pola: 0123435         Jumlah: 1
+Kata: nakugwum        Pola: 01234536        Jumlah: 1
+
+Analisis bigram:
+
+10 n-gram paling sering muncul (ukuran 2):
+xd         : 12
+us         : 10
+zd         : 7
+dm         : 7
+mu         : 6
+ga         : 6
+ug         : 6
+sg         : 6
+mx         : 6
+kd         : 6
+
+=======================================================
+6. DEKRIPSI MANUAL
+=======================================================
+
+DEKRIPSI MANUAL
+Masukkan kunci dengan format: a=e, b=t, c=a
+Artinya huruf ciphertext a diganti menjadi plaintext e.
+Tekan ENTER jika belum ingin melakukan dekripsi.
+
+Masukkan kunci: 
+
+Dekripsi dilewati. Analisis tetap selesai.
+
+=======================================================
+PROGRAM SELESAI
+=======================================================
