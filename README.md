@@ -26,7 +26,7 @@ Aplikasi berbasis web ini mendukung enkripsi dan dekripsi menggunakan 7 algoritm
 7. **One-Time Pad (OTP)**
 
 ### Cara Menjalankan Program Web:
-1. Pastikan Anda memiliki browser modern (Chrome/Firefox/Edge).
+1. Pastikan memiliki browser modern (Chrome/Firefox/Edge).
 2. Buka folder `web_kriptografi`.
 3. Jalankan file utama (misalnya `index.html`) dengan membukanya langsung di browser atau menggunakan local server (seperti Live Server di VS Code).
 
